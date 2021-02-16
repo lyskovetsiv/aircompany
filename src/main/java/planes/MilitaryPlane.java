@@ -1,11 +1,10 @@
-package Planes;
+package planes;
 
 import models.MilitaryType;
 
 import java.util.Objects;
 
 public class MilitaryPlane extends Plane{
-
     private MilitaryType type;
 
     public MilitaryPlane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity, MilitaryType type) {
